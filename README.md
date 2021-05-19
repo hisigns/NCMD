@@ -11,7 +11,7 @@ Potential - All potential energy calculators in ASE or ASAP are supported in thi
 
 Velocity Distribution - This approach currently uses the Maxwell Boltzmann Distribution.
 
-Temperature Control - We use Langevin Thermostat in this example, which is an equilibrium approach at constant NVT. The Langevin approach holds temperature constant by applying a drag force to mitigate large temperature spikes.
+Temperature Control - We use Langevin Thermostat in this example, which is an equilibrium approach at constant NVT. The Langevin approach holds temperature constant by applying a drag force and a random force to mitigate large temperature spikes.
 
 ## For Users
 
@@ -20,7 +20,7 @@ You can download the files in this repository by using the git command or by dow
 ## Dependencies
 
 - Atomic Simulation Environment (ASE)
-- As soon as possible (ASAP)
+- Atomic SimulAtion Program (ASAP3)
 - Numpy
 - Scipy
 - Matplotlib
